@@ -61,7 +61,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ваш-логин-на-docker-hub/ваш-репозиторий-на-docker-hub:latest
+          tags: p1rt/infra_actions:latest
 
   deploy:
     runs-on: ubuntu-latest
